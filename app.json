@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "BetterVBL",
+    "slug": "BetterVBL",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./data/vbl-logo.png",
+    "splash": {
+      "image": "",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "jaan.lavaerts",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": ""
+    }
+  }
+}
