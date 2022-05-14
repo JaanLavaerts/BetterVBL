@@ -19,6 +19,7 @@ function Clubinfo({navigation, route}) {
     const [loading, setLoading] = useState(true)
     const [clubGames, setClubGames] = useState([])
     const [clubSchedule, setClubSchedule] = useState([])
+
     
     const fetchTeams = () => {
         setLoading(true)
@@ -61,7 +62,8 @@ function Clubinfo({navigation, route}) {
           }
           teams.push(team)
           await AsyncStorage.setItem('favTeams', JSON.stringify(teams));
-          Alert.alert('Team toegevoegd aan favorieten. Herstart de app.')
+          Alert.alert('Team toegevoegd aan favorieten!')
+
         } catch (error) {
         }
     };

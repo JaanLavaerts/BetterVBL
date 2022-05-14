@@ -35,7 +35,7 @@ function Game(props) {
                             <Text style={{fontSize: 30, fontWeight: 'bold', textAlign:'center', color: '#0076ff'}}>{homeScore} - {awayScore}</Text>
                             <Text></Text>
                             <Text style={{padding: 2}}><Entypo name="trophy" size={14} color="black" /> {props.poule}</Text>
-                            <Text style={{padding: 2}}><Entypo name="location" size={14} color="black" /> {props.plaats}</Text>
+                            <Text style={{padding: 2, color: 'blue'}} onPress={() => Linking.openURL("https://google.com/maps/search/?api=1&query="+props.plaats)}><Entypo name="location" size={14} color="blue"/> {props.plaats}</Text>
                             <Text></Text>
                             <Text style={{padding: 2}}><Entypo name="calendar" size={14} color="black" /> {props.datum}</Text>
                             <Text style={{padding: 2}}><Fontisto name="clock" size={14} color="black" /> {props.tijd.replace('.', ':')}</Text>
