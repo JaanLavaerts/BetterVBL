@@ -13,3 +13,6 @@ React Native applicatie aan de hand van [publieke basket vlaanderen API](https:/
 <img width="200px" height="auto" src="https://user-images.githubusercontent.com/71444090/168426098-1fc6731b-1a9e-4d4e-8e08-651b1768d5bc.png">
 <img width="200px" height="auto" src="https://user-images.githubusercontent.com/71444090/168426131-42bb882b-b190-45e6-a9bf-69ac2ab8c146.png">
 </p>
+
+
+<img src="https://github.com/JaanLavaerts/BetterVBL/assets/71444090/81638da9-c99d-43a8-aa58-5e05919ce452">
